@@ -1,0 +1,113 @@
+[
+  {
+    "blockchain": "Bighive",
+    "type": "Hybrid (Cross-chain + TradFi)",
+    "nativeToken": {
+      "name": "Beets",
+      "symbol": "BEETS",
+      "decimals": 18,
+      "minable": true,
+      "initialPriceUSD": 112.19,
+      "priceIncreasePerBlock": "0.0001 + IPC"
+    },
+    "genesisDate": "2024-06-30",
+    "smartContracts": {
+      "bighive": "",
+      "beets": "Beets = 0.000000000000000000 Beets"
+
+    },
+    "explorer": "",
+    "website": "https://bighive-beets.io",
+    "social": {
+      "twitter": "https://twitter.com/Nico_bighive",
+      "github": "https://github.com/tuusuario/bighive1"
+    }
+  },
+  {
+    "features": {
+      "crossChainSupport": true,
+      "defiIntegration": true,
+      "nftMarketplace": true,
+      "daoGovernance": true
+    },
+    "consensusMechanism": "Hybrid (Proof of Stake + Proof of Work)",
+    "transactionSpeed": "2 seconds",
+    "scalabilitySolutions": [
+      "Layer 2 Rollups",
+      "Sharding"
+    ],
+    "securityAudits": [
+      {
+        "auditor": "CertiK",
+        "date": "2024-05-01",
+        "reportUrl": "https://certik.com/reports/bighive"
+      }
+    ]
+  },
+  {
+    "features": {
+      "crossChainSupport": true,
+      "defiIntegration": true,
+      "nftMarketplace": true,
+      "daoGovernance": true
+    },
+    "consensusMechanism": "Hybrid (Proof of Stake + Proof of Work)",
+    "transactionSpeed": "2 seconds",
+    "scalabilitySolutions": [
+      "Layer 2 Rollups",
+      "Sharding"
+    ],
+    "securityAudits": [
+      {
+        "auditor": "CertiK",
+        "date": "2024-05-01",
+        "reportUrl": "https://certik.com/reports/bighive"
+      }
+    ]
+  },
+  {
+    "ecosystem": {
+      "dApps": [
+        {
+          "name": "BighiveSwap",
+          "type": "DEX",
+          "url": "https://bighive-beets.io"
+        },
+        {
+          "name": "BeeNFT",
+          "type": "NFT Marketplace",
+          "url": "https://bighive-beets.io"
+        }
+      ],
+      "partnerships": [
+        {
+          "partner": "BigBank",
+          "type": "Fiat On-Ramp",
+          "url": "https://bigbank.com"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap": [
+      {
+        "phase": "Q3 2024",
+        "milestones": [
+          "Launch of BighiveSwap DEX",
+          "Integration with BigBank for fiat on-ramp"
+        ]
+      },
+      {
+        "phase": "Q4 2024",
+        "milestones": [
+          "Release of BeeNFT marketplace",
+          "Expansion of cross-chain capabilities"
+        ]
+      }
+    ],
+    "community": {
+      "forums": "https://forum.bighive.org",
+      "discord": "https://discord.gg/Nico_bighive"
+    }
+  }
+]
